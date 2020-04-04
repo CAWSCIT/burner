@@ -54,7 +54,9 @@ Or simply by
 
 - [x] Current location (So far no support for combining this with the other parameters exist in the backend)
 
-A user will be able to find the contact details for the area they are in. This included hotline, email.
+Upon searching the user will be presented with the results containing the meetings that match their search. The results will display the meeting name, description, day, time, tags, address and an embedded Google map (which they can easily click to open Google Maps).
+
+A user will be able to find the contact details for the area they are in. This included hotline and email.
 *Discussion: How do we figure out what area a user is located in?*
 
 A user should also be able to send suggestions and or bug reports to the app dev team. This will be implemented by leeting users send an email to `itcommittee@ca.org` (or another similar email). This can be as simple as leeting the user click on something that opens their own mail client.
@@ -62,7 +64,12 @@ A user should also be able to send suggestions and or bug reports to the app dev
 *Discussion: Would it be good to be able to just list all meetings for an area instead of searching?*
 
 ## 3.2 External Interface Requirements
+The plugin will have two external dependencies. The version 1.0.0 or 2.0.0 (*Discussion*) of the CAWSITC Meeting API and the Google Maps Embed API.
 
 ## 3.3 System Features
 
 ## 3.4 Nonfunctional Requirements
+
+__Language localisation__
+Will not be done for the MVP. The app is in english.
+
