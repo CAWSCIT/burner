@@ -1,5 +1,3 @@
-# Frontend 
-
 # 1. Introduction
 This is an SRS for version 1.0.0 of the offical CA app.
 
