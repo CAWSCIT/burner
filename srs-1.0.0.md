@@ -39,6 +39,8 @@ We also assume the existence of our [meeting API](https://github.com/CAWSCIT/caw
 
 # 3. System Features and Requirements
 
+Notifications?
+
 This section describes the technical requirments for the app.
 
 ## 3.1 Functional Requirements
