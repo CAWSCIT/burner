@@ -56,8 +56,8 @@ Or simply by
 
 Upon searching the user will be presented with the results containing the meetings that match their search. The results will display the meeting name, description, day, time, tags, address and an embedded Google map (which they can easily click to open Google Maps).
 
-A user will be able to find the contact details for the area they are in. This included hotline and email.
-*Discussion: How do we figure out what area a user is located in?*
+A user will be able to find the contact details for the area they are in. This includes hotline and email.
+This will be implmented by querying the API which will list areas in order of proximity by the closest group to the users current position for each area (*This is not implemneted in the API but is WIP*).
 
 A user should also be able to send suggestions and or bug reports to the app dev team. This will be implemented by leeting users send an email to `itcommittee@ca.org` (or another similar email). This can be as simple as leeting the user click on something that opens their own mail client.
 
